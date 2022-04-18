@@ -9,8 +9,17 @@ const packingList = [
   "cooking utensils",
 ];
 
-console.log("Kitchen stuff to pack");
+//// For Loop on an Array
+// console.log("Kitchen stuff to pack:");
 
-for (let i = 0; i < packingList.length; i++) {
+// for (let i = 0; i < packingList.length; i++) {
+//   console.log(packingList[i]);
+// }
+
+// While Loop on an Array
+console.log("Kitchen stuff to pack:");
+let i = 0;
+while (i < packingList.length) {
   console.log(packingList[i]);
+  i++;
 }
